@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.basicconfiguration.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.basicconfiguration.domain.User">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="avatarId" column="avatar_id" jdbcType="BIGINT"/>
+            <result property="email" column="email" jdbcType="VARCHAR"/>
+            <result property="enabled" column="enabled" jdbcType="INTEGER"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="username" column="username" jdbcType="VARCHAR"/>
+            <result property="deptId" column="dept_id" jdbcType="BIGINT"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="jobId" column="job_id" jdbcType="BIGINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="nickName" column="nick_name" jdbcType="VARCHAR"/>
+            <result property="sex" column="sex" jdbcType="TINYINT"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="isDel" column="is_del" jdbcType="TINYINT"/>
+            <result property="number" column="number" jdbcType="VARCHAR"/>
+            <result property="realName" column="real_name" jdbcType="VARCHAR"/>
+            <result property="dataScope" column="data_scope" jdbcType="VARCHAR"/>
+            <result property="storeDataScope" column="store_data_scope" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,avatar_id,email,
+        enabled,password,username,
+        dept_id,phone,job_id,
+        create_time,nick_name,sex,
+        update_time,is_del,number,
+        real_name,data_scope,store_data_scope
+    </sql>
+</mapper>
