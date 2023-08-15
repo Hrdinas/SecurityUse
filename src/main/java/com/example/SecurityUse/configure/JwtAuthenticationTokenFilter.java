@@ -1,7 +1,7 @@
-package src.main.java.com.example.basicconfiguration.configure;
+package com.example.SecurityUse.configure;
 
-import com.example.basicconfiguration.domain.User;
-import com.example.basicconfiguration.tuils.JwtUtil;
+import com.example.SecurityUse.domain.User;
+import com.example.SecurityUse.tuils.JwtUtil;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.tuils;
+package com.example.SecurityUse.tuils;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;

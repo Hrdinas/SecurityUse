@@ -1,9 +1,9 @@
-package src.main.java.com.example.basicconfiguration.service.impl;
+package com.example.SecurityUse.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.example.basicconfiguration.domain.User;
-import com.example.basicconfiguration.dto.LoginDto;
-import com.example.basicconfiguration.mapper.UserMapper;
+import com.example.SecurityUse.domain.User;
+import com.example.SecurityUse.dto.LoginDto;
+import com.example.SecurityUse.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,13 +1,13 @@
-package src.main.java.com.example.basicconfiguration.service.impl;
+package com.example.SecurityUse.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.basicconfiguration.configure.RedisCache;
-import com.example.basicconfiguration.domain.User;
-import com.example.basicconfiguration.dto.LoginDto;
-import com.example.basicconfiguration.service.UserService;
-import com.example.basicconfiguration.mapper.UserMapper;
-import com.example.basicconfiguration.tuils.CommonResult;
-import com.example.basicconfiguration.tuils.JwtUtil;
+import com.example.SecurityUse.configure.RedisCache;
+import com.example.SecurityUse.domain.User;
+import com.example.SecurityUse.dto.LoginDto;
+import com.example.SecurityUse.service.UserService;
+import com.example.SecurityUse.mapper.UserMapper;
+import com.example.SecurityUse.tuils.CommonResult;
+import com.example.SecurityUse.tuils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

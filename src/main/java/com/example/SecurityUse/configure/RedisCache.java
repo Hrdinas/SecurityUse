@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.configure;
+package com.example.SecurityUse.configure;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundSetOperations;

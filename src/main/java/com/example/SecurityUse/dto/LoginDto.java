@@ -1,6 +1,6 @@
-package src.main.java.com.example.basicconfiguration.dto;
+package com.example.SecurityUse.dto;
 
-import com.example.basicconfiguration.domain.User;
+import com.example.SecurityUse.domain.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

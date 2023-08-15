@@ -1,7 +1,7 @@
-package src.main.java.com.example.basicconfiguration.mapper;
+package com.example.SecurityUse.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.basicconfiguration.domain.User;
+import com.example.SecurityUse.domain.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

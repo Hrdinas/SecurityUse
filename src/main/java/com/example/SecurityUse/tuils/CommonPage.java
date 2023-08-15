@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.tuils;
+package com.example.SecurityUse.tuils;
 
 
 import com.github.pagehelper.PageInfo;

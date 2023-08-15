@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.domain;
+package com.example.SecurityUse.domain;
 
 import lombok.Data;
 

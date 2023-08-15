@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.configure;
+package com.example.SecurityUse.configure;
 
 import cn.hutool.core.lang.Assert;
 import com.alibaba.fastjson.JSON;

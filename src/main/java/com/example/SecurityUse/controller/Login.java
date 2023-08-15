@@ -1,8 +1,8 @@
-package src.main.java.com.example.basicconfiguration.controller;
+package com.example.SecurityUse.controller;
 
-import com.example.basicconfiguration.domain.User;
-import com.example.basicconfiguration.service.UserService;
-import com.example.basicconfiguration.tuils.CommonResult;
+import com.example.SecurityUse.domain.User;
+import com.example.SecurityUse.service.UserService;
+import com.example.SecurityUse.tuils.CommonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

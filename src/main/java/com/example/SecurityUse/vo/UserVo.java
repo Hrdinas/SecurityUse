@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.vo;
+package com.example.SecurityUse.vo;
 
 import lombok.Data;
 

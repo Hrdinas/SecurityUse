@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.configure;
+package com.example.SecurityUse.configure;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;

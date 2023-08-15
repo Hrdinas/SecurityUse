@@ -1,4 +1,4 @@
-package src.main.java.com.example.basicconfiguration.configure;
+package com.example.SecurityUse.configure;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,7 @@
-package src.main.java.com.example.basicconfiguration.service;
+package com.example.SecurityUse.service;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.basicconfiguration.domain.User;
-import com.example.basicconfiguration.tuils.CommonResult;
+import com.example.SecurityUse.domain.User;
+import com.example.SecurityUse.tuils.CommonResult;
 
 /**
 * @author zhoujinpeng

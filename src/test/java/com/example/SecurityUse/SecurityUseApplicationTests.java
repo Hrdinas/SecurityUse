@@ -1,13 +1,13 @@
 package src.test.java.com.example.basicconfiguration;
 
-import com.example.basicconfiguration.service.UserService;
+import com.example.SecurityUse.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootTest
-class BasicConfigurationTests {
+class SecurityUseApplicationTests {
 
     @Autowired
     private UserService userService;
